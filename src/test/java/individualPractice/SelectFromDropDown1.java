@@ -25,6 +25,8 @@ public class SelectFromDropDown1 {
 		WebDriver driver = new ChromeDriver();
 
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
+//		driver.get("https://rahulshettyacademy.com/angularpractice/");
+//		driver.get("https://rahulshettyacademy.com/seleniumPractise/#/");
 		driver.manage().window().maximize();
 		WebElement dd = driver.findElement(By.id("dropdown-class-example"));
 		Select d1 = new Select(dd);
