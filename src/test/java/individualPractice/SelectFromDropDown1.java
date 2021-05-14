@@ -3,6 +3,8 @@
  */
 package individualPractice;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -31,6 +33,18 @@ public class SelectFromDropDown1 {
 		WebElement dd = driver.findElement(By.id("dropdown-class-example"));
 		Select d1 = new Select(dd);
 		d1.selectByVisibleText("Option2");
+
+		List<WebElement> optionList = d1.getOptions();
+		int optionCount = optionList.size();
+		System.out.println("All present Option:" + optionList);
+		System.out.println("Available Options:" + optionCount);
+
+		for (WebElement ele : optionList) {
+			String option = ele.getText();
+			System.out.println("Option  ->  " + option);
+		}
+		WebElement selectedOption = d1.getFirstSelectedOption();
+		System.out.println("Selected Option: " + selectedOption.getText());
 
 		Thread.sleep(15000);
 		System.out.println("Selected is completed");

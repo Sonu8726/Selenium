@@ -11,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
  * @author Ghost
  *
  */
-public class RadioButton {
+public class NumberOfImagesInAPage {
 
 	/**
 	 * @param args
@@ -22,10 +22,9 @@ public class RadioButton {
 		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\lib\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
-
-		driver.findElement(By.xpath("//input[@value='radio2']")).click();
-		
+		driver.get("https://rahulshettyacademy.com/seleniumPractise/#/");
+		int numberOfImage = driver.findElements(By.tagName("img")).size();
+		System.out.println("Number of Images:" + numberOfImage);
 		Thread.sleep(15000);
 		driver.close();
 	}
