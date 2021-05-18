@@ -35,7 +35,6 @@ public class MouseHover {
 			System.out.println("Something Failed");
 		}
 		Thread.sleep(8000);
-
 		driver.close();
 	}
 

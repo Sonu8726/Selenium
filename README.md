@@ -18,6 +18,7 @@ I have completed with normal opertaion i.e
  11. Find Fields
  12. Alert
  13. Mouse Hover
+ 14. Implicitly Wait (aka Implicit Wait but if you check function name you will find that its what I mentioned :-) )
  
  
 If you have any suggestion or any opportunity for me. Feel free to reach me on my Instagram @ig_sfg. 
