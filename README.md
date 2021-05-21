@@ -19,6 +19,7 @@ I have completed with normal opertaion i.e
  12. Alert
  13. Mouse Hover
  14. Implicitly Wait (aka Implicit Wait but if you check function name you will find that its what I mentioned :-) )
+ 15. PageLoatTimeout means using this you can check if any app load in how many seconds like if we set 5, means app should load in 5 otherwise it will give us an error that is timeout.
  
  
 If you have any suggestion or any opportunity for me. Feel free to reach me on my Instagram @ig_sfg. 
