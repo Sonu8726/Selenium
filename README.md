@@ -21,6 +21,7 @@ I have completed with normal opertaion i.e
  14. Implicitly Wait (aka Implicit Wait but if you check function name you will find that its what I mentioned :-) )
  15. PageLoatTimeout means using this you can check if any app load in how many seconds like if we set 5, means app should load in 5 otherwise it will give us an error that is timeout.
  16. SetScriptTimeOut I am not sure with code but It will allows program continues if condition matches.
+ 17. Manage frames 
  
  
 If you have any suggestion or any opportunity for me. Feel free to reach me on my Instagram @ig_sfg. 
