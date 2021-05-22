@@ -30,6 +30,13 @@ public class FrameHandle {
 		WebElement crsText = driver.findElement(
 				By.xpath("//a[@href='https://courses.rahulshettyacademy.com/courses'][normalize-space()='Courses']"));
 		System.out.println(crsText.getText());
+		driver.switchTo().defaultContent();
+		WebElement btnText = driver.findElement(By.xpath("//button[text()='Practice']"));
+		System.out.println(btnText.getText());
+
+		driver.findElement(By.xpath("//a[contains(text(),'Free Access to InterviewQues/ResumeAssistance/Mate')]"))
+				.click();
+		System.out.println(driver.getTitle());
 		driver.close();
 	}
 
