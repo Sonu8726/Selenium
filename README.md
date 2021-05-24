@@ -23,6 +23,7 @@ I have completed with normal opertaion i.e
  16. SetScriptTimeOut I am not sure with code but It will allows program continues if condition matches.
  17. Manage frames and back to original page
  18. Explicit Timeout wait until WebElement present or displayed
+ 19. Manage Actions 
  
  
 If you have any suggestion or any opportunity for me. Feel free to reach me on my Instagram @ig_sfg. 
