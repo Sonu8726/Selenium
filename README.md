@@ -25,6 +25,8 @@ I have completed with normal opertaion i.e
  18. Explicit Timeout wait until WebElement present or displayed
  19. Manage Actions 
  20. Double click
+ 21. Drag and Drop and JSExecutor
+
  
  
 If you have any suggestion or any opportunity for me. Feel free to reach me on my Instagram @ig_sfg. 
