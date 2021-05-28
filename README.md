@@ -3,6 +3,8 @@ Selenium Practice
 
 This is practicing of Selenium. 
 
+driver.get("https://rahulshettyacademy.com/AutomationPractice/");
+
 I have completed with normal opertaion i.e 
 
   1. Launch Browser
@@ -29,6 +31,7 @@ I have completed with normal opertaion i.e
  22. Add commons.io repository 
  23. TakesScreenshot
  24. Modify Screenshot file Name
+ 25. Web table (normal)
 
  
  
