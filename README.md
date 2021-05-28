@@ -34,6 +34,7 @@ I have completed with normal opertaion i.e
  25. Web table (normal)
  26. Slider (like Colorpicker)
  27. Window Auth like username and password
+ 28. read and write Properties means .properties
 
  
  
