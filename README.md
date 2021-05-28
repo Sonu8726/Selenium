@@ -33,6 +33,7 @@ I have completed with normal opertaion i.e
  24. Modify Screenshot file Name
  25. Web table (normal)
  26. Slider (like Colorpicker)
+ 27. Window Auth like username and password
 
  
  
