@@ -26,6 +26,8 @@ I have completed with normal opertaion i.e
  19. Manage Actions 
  20. Double click
  21. Drag and Drop and JSExecutor
+ 22. Add commons.io repository 
+ 23. TakesScreenshot
 
  
  
