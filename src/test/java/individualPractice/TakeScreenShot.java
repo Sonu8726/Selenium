@@ -5,6 +5,7 @@ package individualPractice;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.Date;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
@@ -20,7 +21,7 @@ public class TakeScreenShot {
 
 	/**
 	 * @param args
-	 * @throws IOException 
+	 * @throws IOException
 	 */
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
@@ -30,8 +31,12 @@ public class TakeScreenShot {
 
 		driver.manage().window().maximize();
 
+		// custom Screenshot name
+		Date currentDate = new Date();
+		String newFormat = currentDate.toString().replace(" ", "-").replace(":", "-");
+
 		File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(screenshot, new File(".//screenshot/droppable.png"));
+		FileUtils.copyFile(screenshot, new File(".//screenshot//" + newFormat + ".png"));
 		System.out.println("Screenshot completed");
 		driver.close();
 	}
