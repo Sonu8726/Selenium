@@ -32,6 +32,7 @@ I have completed with normal opertaion i.e
  23. TakesScreenshot
  24. Modify Screenshot file Name
  25. Web table (normal)
+ 26. Slider (like Colorpicker)
 
  
  
